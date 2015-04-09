@@ -4,7 +4,7 @@ Created on Thu Apr  9 20:18:33 2015
 
 @author: root
 """
-
+s
 import random
 
 print ("Wybierz liczbe z zakresu 1-100")
