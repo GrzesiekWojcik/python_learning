@@ -4,7 +4,7 @@ Created on Thu Apr  9 20:18:33 2015
 
 @author: root
 """
-s
+
 import random
 
 print ("Wybierz liczbe z zakresu 1-100")
@@ -27,7 +27,7 @@ while y != moja:
 		print ("za malo")
 		c = y
 		print ("przedzial: ",c,d)
-	else:
+	else:a
 		print ("znalazlem")
 		print ("moja = ",moja)
 		print ("Kompa = ",y)
