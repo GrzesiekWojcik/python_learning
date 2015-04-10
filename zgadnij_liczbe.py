@@ -14,10 +14,10 @@ moja = int (input("Podaj liczbe "))
 y = 0
 c = 1
 lista = 0
-d = 1165465
+d = 100
 while y != moja:
 	y = random.randint(c,d)
-	print ("\nliczba kompa: ",y)
+	print ("liczba kompa: ",y)
 	lista += 1
 	if y > moja:
 		print ("za duzo")
@@ -27,7 +27,7 @@ while y != moja:
 		print ("za malo")
 		c = y
 		print ("przedzial: ",c,d)
-	else:a
+	else:
 		print ("znalazlem")
 		print ("moja = ",moja)
 		print ("Kompa = ",y)
