@@ -32,3 +32,16 @@ while y != moja:
 		print ("moja = ",moja)
 		print ("Kompa = ",y)
 		print ("w tylu ruchach znalazles: ",lista)
+
+print (" A teraz ty zgadnij jaka liczba zostala wylosowana...")
+komp = random.randint(1,100)
+twoja = 0
+while twoja != komp:
+	twoja= int (input("Podaj liczbe: "))
+	if twoja > komp:
+		print ("za duza")
+	elif twoja < komp:
+		print ("za mala")
+	else:
+		print ("znalazles")
+	
